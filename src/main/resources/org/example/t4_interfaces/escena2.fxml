@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="ap2" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: red;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.t4_interfaces.EscenasController">
+   <children>
+      <Label fx:id="l2" layoutX="184.0" layoutY="120.0" text="Esto es la escena 2">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="b2" layoutX="251.0" layoutY="200.0" mnemonicParsing="false" onAction="#irAEscena1" text="Ir a escena 1" />
+      <Label fx:id="l12" layoutX="282.0" layoutY="248.0" text="hola">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tf2" alignment="TOP_CENTER" layoutX="144.0" layoutY="305.0" prefHeight="26.0" prefWidth="300.0" promptText="Mensaje para la escena 1" />
+   </children>
+</AnchorPane>
